@@ -11,7 +11,6 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 Open the terminal and direct to the your working directory and run 
-~ `docker-compose up`
+`docker-compose up`
+
 This will run a server on localhost:3001. So open localhost:3001 on your browser and signin/signup 
-
-
