@@ -10,20 +10,24 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+
 ## First setup
 
 Open your terminal and run the following command to setup the environment
 `docker-compose up`
 
-While setting up it will launch a local server on localhost:3001. Open that address in your browser and signin/signup.
+# While setting up it will launch a local server on localhost:3001. Open that address in your browser and signin/signup.
+
 =======
-=======
->>>>>>> main
+
+> > > > > > > main
+
 ## How to run locally?
+
 1. [Install Docker](https://docs.docker.com/get-docker/)
 2. [Install Docker Compose](https://docs.docker.com/compose/install/)
-3. Run `docker-compose up`. 
-<<<<<<< HEAD
->>>>>>> main
-=======
->>>>>>> main
+3. Run `docker-compose up`.
+   <<<<<<< HEAD
+   > > > > > > > # main
+   > > > > > > >
+   > > > > > > > main
