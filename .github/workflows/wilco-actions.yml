@@ -47,7 +47,12 @@ jobs:
       - name: Lint code
         uses: actions/setup-node@v1
         with:
+<<<<<<< HEAD
           node-version: "16"
           cache: "yarn"
+=======
+          node-version: '16'
+          cache: 'yarn'
+>>>>>>> main
       - run: yarn install
       - run: yarn lint
