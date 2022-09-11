@@ -8,7 +8,7 @@ const BACKEND_URL =
     ? "http://localhost:3000"
     ? process.env.REACT_APP_BACKEND_URL
     ? process.env.REACT_APP_BACKEND_URL
-    : "https://api.anythink.market";
+    ? "https://api.anythink.market";
 
 const API_ROOT = `${BACKEND_URL}/api`;
 
