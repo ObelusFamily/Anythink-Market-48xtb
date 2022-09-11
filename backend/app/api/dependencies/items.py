@@ -23,7 +23,10 @@ def get_items_filters(
     seller: Optional[str] = None,
     favorited: Optional[str] = None,
 <<<<<<< HEAD
+<<<<<<< HEAD
     title: Optional[str] = None,
+=======
+>>>>>>> main
 =======
 >>>>>>> main
     limit: int = Query(DEFAULT_ITEMS_LIMIT, ge=1),
@@ -34,7 +37,10 @@ def get_items_filters(
         seller=seller,
         favorited=favorited,
 <<<<<<< HEAD
+<<<<<<< HEAD
         title=title,
+=======
+>>>>>>> main
 =======
 >>>>>>> main
         limit=limit,

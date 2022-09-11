@@ -18,7 +18,11 @@ jobs:
         run: echo "::set-output name=defined::true"
         env:
 <<<<<<< HEAD
+<<<<<<< HEAD
           BACKEND_KEY: ${{ secrets.HEROKU_BACKEND_APP }}
+=======
+            BACKEND_KEY: ${{ secrets.HEROKU_BACKEND_APP }}
+>>>>>>> main
 =======
             BACKEND_KEY: ${{ secrets.HEROKU_BACKEND_APP }}
 >>>>>>> main
@@ -28,8 +32,13 @@ jobs:
         run: echo "::set-output name=defined::true"
         env:
 <<<<<<< HEAD
+<<<<<<< HEAD
           FRONTEND_KEY: ${{ secrets.HEROKU_FRONTEND_APP }}
 
+=======
+            FRONTEND_KEY: ${{ secrets.HEROKU_FRONTEND_APP }}
+            
+>>>>>>> main
 =======
             FRONTEND_KEY: ${{ secrets.HEROKU_FRONTEND_APP }}
             
@@ -61,7 +70,11 @@ jobs:
           heroku_app_name: ${{secrets.HEROKU_FRONTEND_APP}}
           heroku_email: "ness@anythink.family"
 <<<<<<< HEAD
+<<<<<<< HEAD
           dontautocreate: true
+=======
+          dontautocreate: true
+>>>>>>> main
 =======
           dontautocreate: true
 >>>>>>> main

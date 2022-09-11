@@ -48,8 +48,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
 <<<<<<< HEAD
+<<<<<<< HEAD
           node-version: "16"
           cache: "yarn"
+=======
+          node-version: '16'
+          cache: 'yarn'
+>>>>>>> main
 =======
           node-version: '16'
           cache: 'yarn'
