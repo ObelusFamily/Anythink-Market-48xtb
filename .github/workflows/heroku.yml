@@ -17,14 +17,20 @@ jobs:
         if: "${{ env.BACKEND_KEY != '' }}"
         run: echo "::set-output name=defined::true"
         env:
+          BACKEND_KEY: ${{ secrets.HEROKU_BACKEND_APP }}
+            BACKEND_KEY: ${{ secrets.HEROKU_BACKEND_APP }}
             BACKEND_KEY: ${{ secrets.HEROKU_BACKEND_APP }}
 
       - id: heroku-frontend
         if: "${{ env.FRONTEND_KEY != '' }}"
         run: echo "::set-output name=defined::true"
         env:
+          FRONTEND_KEY: ${{ secrets.HEROKU_FRONTEND_APP }}
+
             FRONTEND_KEY: ${{ secrets.HEROKU_FRONTEND_APP }}
-            
+
+            FRONTEND_KEY: ${{ secrets.HEROKU_FRONTEND_APP }}
+
   build-backend:
     environment: Production
     runs-on: ubuntu-latest
@@ -51,4 +57,6 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_FRONTEND_APP}}
           heroku_email: "ness@anythink.family"
+          dontautocreate: true
+          dontautocreate: true
           dontautocreate: true
